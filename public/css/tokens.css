@@ -1,0 +1,31 @@
+:root {
+  /* color */
+  --ink: #0F172A;        /* texto principal 17:1 */
+  --ink-2: #334155;      /* texto secundario 10:1 */
+  --muted: #475569;      /* etiquetas 7.6:1 */
+  --line: #E2E8F0;  --line-soft: #F1F5F9;
+  --bg: #F4F6F9;    --surface: #FFFFFF;  --surface-2: #F8FAFC;
+  --primary: #1D4ED8;  --primary-ink: #1E3A8A;  --primary-soft: #DBEAFE;
+  --accent: #C2410C;   --accent-ink: #9A3412;   --accent-soft: #FFEDD5;
+  --series-1: #1D4ED8; /* continua */
+  --series-2: #C2410C; /* guiones 8 5 */
+  --series-3: #0F766E; /* puntos 2 4 */
+  --series-4: #6D28D9; /* guion-punto 10 4 2 4 */
+  --series-ref: #0F172A; --series-neutral: #64748B;
+  --ok-ink: #166534;   --ok-bg: #DCFCE7;   --ok-dot: #16A34A;
+  --warn-ink: #854D0E; --warn-bg: #FEF9C3; --warn-dot: #CA8A04;
+  --danger: #B91C1C;   --danger-bg: #FEE2E2;
+  --header-bg: #0F172A; --header-2: #1E293B;
+  /* tipografía */
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --fs-h1: clamp(28px, 3.2vw, 38px); --fs-h2: 20px; --fs-h3: 17px;
+  --fs-body: 16px; --fs-sm: 14px; --fs-xs: 12px; --lh: 1.6;
+  /* espacio, radios, objetivos */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px;
+  --r-control: 8px; --r-btn: 10px; --r-card: 14px; --r-pill: 999px;
+  --target-min: 44px;
+  --focus: 3px solid var(--primary);
+  --container: 1440px; --nav-w: 260px; --params-w: 380px;
+}
